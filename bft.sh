@@ -63,7 +63,7 @@ fi
 
 SLEEPX=1
 # SLEEPNO below 140 may not be enouch time for DFS channels to come up, ymmv
-SLEEPNO=140
+SLEEPNO=160
 # for small size shorten SLEEPNO to run faster
 if [[ "$TSIZE" == "small" ]];then
    SLEEPNO=10
